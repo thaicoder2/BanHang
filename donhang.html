@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/Trangchu/Logo.png" type="image/x-icon" />
+    <title>Nông trại | Trang chủ</title>
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/container-sp.css" />
+    <link rel="stylesheet" href="./css/trang_sp.css" />
+    <link rel="stylesheet" href="./css/donhang.css" />
+    <link rel="stylesheet" href="./css/sign-form.css" />
+
+    <script src="https://kit.fontawesome.com/bf0983be83.js" crossorigin="anonymous"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/sanpham.js"></script>
+    <script src="./js/gio_hang.js"></script>
+    <script src="./js/xem_them.js"></script>
+    <script src="./js/tim_kiem.js"></script>
+    <script src="./js/mua_hang.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="#"><img class="logo" src="./images/Trangchu/Logo.gif" alt="" /></a>
+        <nav>
+            <ul class="danh-muc-sp">
+                <li>
+                    <a class="header__link" href="./index.html"> Trang chủ </a>
+                </li>
+                <li>
+                    <a class="header__link" href="./male.html">Nam</a>
+                </li>
+                <li>
+                    <a class="header__link" href="./female.html">Nữ</a>
+                </li>
+                <li>
+                    <a class="header__link disable_link" href="./about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="function_group">
+            <div class="area_cart">
+                <a class="header__link" href="./signin.html">Đăng nhập </a>
+                <p class="header__link">/</p>
+                <a class="header__link" href="./signup.html">Đăng ký </a>
+                <button id="cart-button">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+            <div>
+                <form id="search-form" method="GET" action="timkiem.html">
+                    <input type="text" class="search-form-input" id="info" placeholder="Nhập thông tin cần tìm..." />
+                    <button class="search-form-button" id="tim" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="box">
+            <div id="list_sp" class="row left"></div>
+            <div class="row right">
+                <div class="input-group">
+                    <input type="text" placeholder="Mã giảm giá" />
+                    <button>Áp dụng</button>
+                </div>
+
+                <div class="bill-group">
+                    <p id="thanh-tien" class="text-gradient">Thành tiền:</p>
+                    <div>
+                        <button class="button-effect">
+                            Thanh toán<i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <div class="thongTinShop">
+                <img class="logo" src="./images/Trangchu/Logo.png" alt="" />
+            </div>
+            <div class="thongTinShop">
+                <h2>Clothes Shop</h2>
+
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com/"><i class="fab fa-twitter-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.pinterest.com/"><i class="fab fa-pinterest-square"></i></a>
+                    </li>
+                </ul>
+                <h3>Địa chỉ: đường 3/2, phường Xuân Khánh, quận Ninh Kiều, TP. Cần Thơ</h3>
+                <h3>SDT: 0123456789</h3>
+            </div>
+        </div>
+        <div>
+            <button class="arrow-up">
+                <a href="#"><i class="fas fa-arrow-up"></i></a>
+            </button>
+        </div>
+    </footer>
+</body>
+
+</html>

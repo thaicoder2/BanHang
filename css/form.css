@@ -1,0 +1,71 @@
+.form {
+    height: 500px;
+    width: 1000px;
+    margin: 50px auto;
+    padding-top: 30px;
+    font-family: "Work Sans", sans-serif;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px #000;
+    background-color: rgba(235, 235, 250, 0.432);
+}
+
+.form th {
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.form table {
+    width: 650px;
+    margin: 0px auto;
+    
+}
+.form label {
+    font-size: 1.2em;
+}
+
+.form input {
+    width: 300px;
+    height: 40px;
+    outline: none;
+    margin: 10px;
+    font-size: 1.2em;
+    padding: 0px 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px rgb(145, 143, 143);
+}
+
+.form td > button {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    margin: 20px;
+    left: 170px;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 1.3em;
+
+    box-shadow: 2px 2px 5px rgb(129, 121, 121);
+    text-shadow: 1px 1px 1px rgb(85, 81, 81);
+
+    border: none;
+    border-radius: 15px;
+
+    background: linear-gradient(
+        20deg,
+        rgba(29, 236, 197, 0.5),
+        rgba(91, 14, 214, 0.5) 50%
+    );
+    color: #fff;
+}
+.form td > button:hover {
+    background: linear-gradient(
+        20deg,
+        rgba(83, 7, 206, 0.5),
+        rgba(2, 138, 113, 0.5)
+    );
+    color: rgb(82, 27, 233);
+    text-shadow: 1px 1px 1px rgb(202, 148, 148);
+    font-weight: 600;
+}
+

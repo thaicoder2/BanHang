@@ -1,0 +1,156 @@
+header {
+    min-width: 1440px;
+    position: relative;
+    height: 110px;
+    display: flex;
+    justify-content: space-betwee n;
+    align-items: center;
+    padding: 0px 10px;
+    background: linear-gradient(
+        20deg,
+        rgba(29, 236, 197, 0.5),
+        rgba(91, 14, 214, 0.5) 50%
+    );
+}
+
+/* Logo */
+.logo {
+    position: relative;
+    border-radius: 0 0 5px 5px;
+    width: 100px;
+}
+footer .logo {
+    margin: 0 15px 15px;
+    width: 130px;
+}
+
+/* Link on header */
+.header__link {
+    display: inline-block;
+    color: aliceblue;
+    font-size: 1.4em;
+}
+.header__link:hover {
+    color: #6354eb;
+}
+
+.disable_link {
+    color: rgb(99 104 114 / 76%)
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.current_task {
+    color: #078136;
+    font-weight: bold;
+}
+
+.tabs1 {
+    display: flex;
+}
+.tabs1 .tab-item.active {
+    color: #6354eb;
+    border-bottom-color: currentColor;
+}
+.tabs1 .tab-item {
+    white-space: nowrap;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #999;
+    font-weight: 500;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: inherit;
+    border-bottom: 4px solid transparent;
+}
+
+/*Area ---Sign-in Sign-up Cart*/
+.function_group {
+    width: 350px;
+}
+
+.area_cart {
+    width: 100%;
+    height: 40px;
+    margin: 5px auto;
+}
+#cart-button {
+    background: none;
+    width: 40px;
+    height: 40px;
+    margin: 0 0 0 40px;
+    cursor: pointer;
+}
+
+#cart-button i {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+#cart-button i:hover {
+    color: rgba(3, 180, 121, 0.678);
+    text-shadow: 2px 2px 2px #eee;
+}
+
+/* Area-search */
+#search-form {
+    width: 300px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.search-form-input {
+    flex: 1;
+    width: 100%;
+    outline: none;
+    padding: 10px 10px;
+    border: 1px solid #eee;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: all 0.2s linear;
+}
+.search-form-input:focus {
+    border-color: linear-gradient(
+        20deg,
+        rgba(29, 236, 197, 0.5),
+        rgba(91, 14, 214, 0.5) 50%
+    );
+}
+.search-form-input:focus + .subscribe-form-button {
+    background: linear-gradient(
+        20deg,
+        rgba(29, 236, 197, 0.5),
+        rgba(91, 14, 214, 0.5) 50%
+    );
+}
+.search-form-button {
+    padding: 5px 15px;
+    background: linear-gradient(
+        20deg,
+        rgba(29, 236, 197, 0.5),
+        rgba(91, 14, 214, 0.5) 50%
+    );
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 4px;
+    flex-shrink: 0;
+    transition: all 0.2s linear;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+.search-form-button:hover {
+    background: linear-gradient(
+        20deg,
+        rgba(91, 14, 214, 0.5),
+        rgba(29, 236, 197, 0.5) 70%
+    );
+}

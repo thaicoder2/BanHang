@@ -1,0 +1,138 @@
+
+input,
+button,
+h1,
+h2,
+textarea {
+    font-family: "Work Sans";
+    border: 0;
+    outline: none;
+}
+/* Title form */
+.text-gradient {
+    font-weight: 600;
+    font-family: 'Work Sans';
+    font-size: 4rem;
+    color: #bd93f9;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+@supports (-webkit-background-clip: text) {
+    .text-gradient {
+        color: transparent;
+        background-image: linear-gradient(40deg, #ff6ec4, #7873f5);
+        -webkit-background-clip: text;
+    }
+}
+
+.text-gradient a{
+    color: transparent;
+    font-size: 2.5rem;
+}
+
+/* Main form    */
+.form {
+    width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px #989aa3;
+}
+.form form {
+    margin:40px;
+}
+
+/*Field Input*/
+.field-input {
+    border-radius: 8px;
+    border: 1px solid #a7a8b0;
+
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+
+    color: #4f515a;
+}
+.field-input input {
+    padding: 0 15px;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    line-height: 1.5;
+    width: 100%;
+}
+.field-input input::placeholder {
+    color: #a7a8b0;
+}
+.field-input i.icon-eye {
+    cursor: pointer;
+}
+
+/* Field input - check */
+.field-check {
+    display: flex;
+    vertical-align: middle;
+    margin: 20px;
+}
+
+.field-check input {
+    margin: 0 15px;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+
+/* Sign up button */
+.input-button {
+    width: 300px;
+    margin: 0 auto;
+}
+.button-effect {
+    padding: 1rem 2rem;
+    border: 0;
+    color: white;
+    background-color: white;
+    background: linear-gradient(40deg, #ff6ec4, #7873f5);
+    text-transform: uppercase;
+    transition: padding 0.25s linear;
+    text-align: center;
+    position: relative;
+}
+.button-effect:hover {
+    padding-right: 5rem;
+}
+.button-effect:hover:active {
+    padding-right: 5rem;
+    box-shadow: 1px 1px 1px rgb(97, 95, 95);
+    text-shadow: 1px 1px 1px rgb(184, 184, 184);
+}
+.button-effect i {
+    transition: 0.05s ease;
+    opacity: 0;
+    position: absolute;
+
+    top: 50%;
+    right: 2rem;
+    transform: translateY(-50%);
+}
+.button-effect:hover i {
+    transform: translateY(-50%);
+    color: #fff;
+    opacity: 1;
+}
+
+.error{
+    border: 1px solid red;
+    color: red;
+}
+.error input::placeholder {
+    color: red;
+}
+
+.remind {
+    color: rgb(214, 139, 0);
+}

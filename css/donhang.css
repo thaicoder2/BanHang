@@ -1,0 +1,128 @@
+main {
+    border: none;
+    background: none;
+    box-shadow: none;
+    min-height: device-height;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box h2 {
+    font-size: 1.5em;
+    line-height: 2.2em;
+    text-align: left;
+}
+
+.box button {
+    text-transform: uppercase;
+}
+.row {
+    margin: 10px;
+    padding: 0 20px;
+}
+.row.left {
+    width: 70%;
+    border-right: solid 1px #999;
+    
+}
+.row.right {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    background-color: azure;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px rgba(90, 89, 89, 0.7);
+}
+.input-group{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 20px;
+}
+.input-group input {
+    width: 70%; 
+    text-align: left;
+    padding: 0 10px;
+}
+.input-group input::placeholder {
+    color: #999899;
+}
+.input-group button {
+    width: 20%;
+    height: 50px;
+    color: white;
+    padding:0 10px;
+    background: linear-gradient(
+        20deg,
+        rgba(29, 236, 197, 0.4),
+        rgba(91, 14, 214, 0.4) 50%
+    );
+}
+.bill-group {
+    position: absolute;
+    bottom: 20px;
+    width: 90%;
+
+    
+}
+.bill-group button {
+    height: 50px;
+    width: 70%;
+    margin: 15px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: white;
+    background: linear-gradient(
+        20deg,
+        rgba(29, 236, 197, 0.4),
+        rgba(91, 14, 214, 0.4) 50%
+    );
+}
+
+.bill-group button:hover:active {
+    font-size: 1.2em;
+}
+.sanpham {
+    display:flex;
+    height: 230px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 2px rgba(90, 89, 89, 0.7);
+    
+}
+.sanpham img {
+    width: 250px;
+    margin: 0 20px 0 5px;
+
+}
+
+.sanpham h3{
+    font-size: 1.5em;
+}
+.thongtin-sp {
+    width: 580px;
+}
+.garbage {
+    font-size: 1.5em;
+    height: 100%;
+    width: 50px;
+    vertical-align: middle;
+    color: white;
+    background-color: rgb(241, 166, 166);
+    cursor: pointer;
+}
+
+.garbage:active {
+    background-color: rgb(255, 0, 0, 0.5);
+    
+}
+
+#thanh-tien {
+    text-align: left;
+    line-height: 1.7em;
+    font-size: 1.7em;
+}

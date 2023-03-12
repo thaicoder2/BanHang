@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: initial;
+}
+
+body {
+    background-color: rgb(241, 239, 239);
+}
+
+a,
+li,
+button,
+p,
+h2,
+h3 {
+    font-size: 16px;
+    font-family: "Work Sans", sans-serif;
+    text-decoration: none;
+}
+
+
+.danh-muc-sp {
+    width: 500px;
+    list-style: none;
+}
+
+.danh-muc-sp li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+footer {
+    display: flex;
+    min-width: 1440px;
+    background: linear-gradient(
+        20deg,
+        rgba(29, 236, 197, 0.5),
+        rgba(91, 14, 214, 0.5) 50%
+    );
+    justify-content: space-between;
+}
+
+
+
+footer div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer h2 {
+    font-size: 1.7em;
+    margin: 10px 0 10px 0;
+    color: rgb(6, 90, 41);
+}
+
+footer h3 {
+    margin: 5px 0;
+}
+
+footer li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+
+
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-pinterest-square,
+.fa-github-square {
+    font-size: 2rem;
+    margin: 10px 10px 10px 0;
+}
+
+.fa-facebook-square {
+    color: #4445d4;
+}
+.fa-twitter-square {
+    color: #0a94e4;
+}
+.fa-pinterest-square {
+    color: rgb(233, 2, 2);
+}
+.fa-github-square {
+    color: #000;
+}
+
+.arrow-up {
+    border: none;
+}
+
+.fa-arrow-up {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+
+    background: linear-gradient(
+        20deg,
+        rgba(29, 236, 197, 0.5),
+        rgba(91, 14, 214, 0.5) 50%
+    );
+    color: white;
+
+    border-radius: 50%;
+
+    width: 70px;
+    height: 60px;
+    font-size: 4em;
+    vertical-align: middle;
+    padding-top: 10px;
+}

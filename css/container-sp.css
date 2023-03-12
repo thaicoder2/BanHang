@@ -1,0 +1,148 @@
+main {
+    position: relative;
+    min-width: 1000px;
+    box-sizing: none;
+}
+article {
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+}
+section {
+    margin: 30px auto;
+    padding: 30px auto;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px rgba(153, 151, 151, 0.8);
+}
+
+.container_sp {
+    display: inline-block;
+    width: 250px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 10px;
+    background-color: rgb(244, 247, 250);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.container_sp:hover {
+    background: linear-gradient(
+        45deg,
+        rgba(29, 236, 197, 0.5),
+        rgba(91, 14, 214, 0.5) 60%
+    );
+}
+
+.container_sp span {
+    height: 50px;
+}
+.container_sp h2 {
+    margin: 2px 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+
+    background-image: linear-gradient(
+        to bottom,
+        #4f7cf6,
+        #4445d4,
+        #7e57eb,
+        #9144d4
+    );
+    transition: background-position 0.5s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container_sp h3 {
+    margin: 5px;
+    padding-top: 0.5em;
+    font-size: 1.1em;
+    color: blue;
+    font-weight: bold;
+}
+
+.hinh-sp {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.view_more_link {
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Effect */
+
+.img {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.txt {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.52);
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    color: white;
+    padding: 50px 10px;
+    box-sizing: border-box;
+    opacity: 0;
+}
+
+.txt > h1 {
+    margin: 20px 0;
+    font-size: 2em;
+}
+
+.txt button {
+    font-size: 1.2em;
+    margin: 10px auto;
+    border-radius: 3px;
+    height: 40px;
+    color: #4445d4;
+    background-color: #c3adfffd;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+
+.txt button > a {
+    margin: 10px 10px;
+    font-size: 1em;
+    color: #4445d4;
+}
+.txt button > a:hover {
+    color: #c3adfffd;
+    background-color: #4445d4;
+}
+
+
+.txt i {
+    background-color: none;
+    margin: 0 10px;
+}
+
+.txt button:hover {
+    color: #c3adfffd;
+    background-color: #4445d4;
+}
+
+.img:hover div.txt {
+    opacity: 1;
+    transform: translateY(50px);
+    transition: ease-in-out 0.5s;
+}
+
+.img:hover img {
+    transform: scale(1.5);
+    transition: all ease-in-out 0.5s;
+}
